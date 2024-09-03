@@ -2,8 +2,10 @@
   "name": "devskiller-javascript-word-search-easy",
   "private": true,
   "author": "Devskiller",
+  "type": "module",
+  
   "scripts": {
-    "start": "node WordSearch.js",
+    "start": "node src/WordSearch.js",
     "test": "babel-node test",
     "test:watch": "chokidar \"**/*.js\" -c \"npm test\" --silent --initial --ignore node_modules"
   },
