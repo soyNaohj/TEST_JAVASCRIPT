@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Search Test</title>
+</head>
+<body>
+    <h1>Word Search Test</h1>
+    <script type="module">
+        import WordSearch from './WordSearch.js';
+
+        const grid = [
+            "______",
+            "_c____",
+            "_s____",
+            "_h____",
+            "basic_",
+            "_r____",
+            "_p____",
+        ];
+
+        const words = ['basic', 'csharp', 'haskell'];
+        const wordSearch = new WordSearch(grid);
+        const result = wordSearch.find(words);
+        
+        console.log(result);
+    </script>
+</body>
+</html>
