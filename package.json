@@ -3,7 +3,7 @@
   "private": true,
   "author": "Devskiller",
   "scripts": {
-    "start": "node index.js",
+    "start": "node WordSearch.js",
     "test": "babel-node test",
     "test:watch": "chokidar \"**/*.js\" -c \"npm test\" --silent --initial --ignore node_modules"
   },
