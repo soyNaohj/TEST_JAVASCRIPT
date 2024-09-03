@@ -3,7 +3,6 @@
   "private": true,
   "author": "Devskiller",
   "type": "module",
-  
   "scripts": {
     "start": "node src/WordSearch.js",
     "test": "babel-node test",
@@ -12,7 +11,7 @@
   "devDependencies": {
     "@babel/cli": "^7.25.6",
     "@babel/core": "^7.21.0",
-    "@babel/node": "^7.20.7",
+    "@babel/node": "^7.25.0",
     "@babel/preset-env": "^7.20.2",
     "chokidar-cli": "3.0.0",
     "jasmine": "4.5.0",
