@@ -1,5 +1,4 @@
-//import WordSearch from '../src/WordSearch.js';
-const WordSearch = require('./WordSearch');
+import WordSearch from '../src/WordSearch.js';
 
 
 describe('Letter Grid Readme Examples', () => {
