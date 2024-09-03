@@ -1,4 +1,4 @@
-export default class WordSearch {
+ class WordSearch {
   constructor(letterGrid) {
     this.letterGrid = letterGrid;
   }
