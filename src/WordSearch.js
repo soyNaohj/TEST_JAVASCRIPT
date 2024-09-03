@@ -1,8 +1,8 @@
-class WordSearch {
+export default class WordSearch {
   constructor(letterGrid) {
     this.letterGrid = letterGrid;
   }
-  module.exports = WordSearch;
+
   find(words) {
     const result = {};
         const gridHeight = this.letterGrid.length;
