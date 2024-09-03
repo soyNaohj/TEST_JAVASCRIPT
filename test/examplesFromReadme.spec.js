@@ -1,4 +1,6 @@
-import WordSearch from '../src/WordSearch.js';
+//import WordSearch from '../src/WordSearch.js';
+const WordSearch = require('./WordSearch');
+
 
 describe('Letter Grid Readme Examples', () => {
   it('should find occurrences horizontally: left to right', () => {
